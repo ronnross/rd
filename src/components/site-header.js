@@ -9,7 +9,7 @@ module.exports = (state, prev, send) => html`
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/todos">Todos</a>
+          <a href="/edit">Edit</a>
         </li>
         <li>
           <a href="/libout">About</a>

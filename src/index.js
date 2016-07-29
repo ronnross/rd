@@ -9,6 +9,7 @@ sf('./styles/materialize.min.css', { global: true})
 const app = choo()
 app.model(require('./models/todos'))
 app.model(require('./models/fileDndModel'))
+app.model(require('./models/editorModel'))
 app.router(require('./routes'))
 
 const tree = app.start()
